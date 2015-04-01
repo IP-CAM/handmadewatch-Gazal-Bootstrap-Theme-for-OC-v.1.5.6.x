@@ -1,0 +1,205 @@
+﻿
+/* Timer on the Product page */ 
+.timer-price {
+margin-bottom:45px;
+margin-left:20px;
+margin-top: 5px;
+}
+.date-timer {
+  margin-right:15px;
+  margin-left:5px;
+  margin-bottom:10px;
+  text-align:justfy;
+  border: 2px solid #EF7D7D;
+  padding:5px;
+  background:#fff;
+}
+.date-timer:before {
+  content:'';
+  background:#fff;
+  border:2px solid #eb3f3f;
+  border-top-color:#fff;
+  border-right-color:#fff;
+  border-radius:5px;
+  position:absolute;
+  margin-top:15px;
+  margin-left:-15px;
+  width:15px;
+  height:15px;
+  z-index:1;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg)
+}  
+.h1_timer {
+  font-size:18pt;
+  color:red;
+  font-weight:300%;
+  padding-left:10px;
+  font-weight:bold;
+}
+.date-out{
+  display:table;
+  text-align:center;
+  font-size:14px;
+  padding-top:5px;
+  padding-left:5px;
+}
+.date-end{
+  text-align:left;
+  padding-top:17px;
+  margin-left:15px;
+  font-size:15px;
+  font-weight:bold;
+  color: #504B4B;
+}
+.box-prices {
+  padding-bottom: 45px;
+  margin-top: -5px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: #333333;
+}
+.special-display {
+  display:none;
+}
+.price-old-1{
+  color:gray;
+}
+.price-old-zacher{
+  width:70px;
+  height:2px;
+  background:red;
+  position:absolute;
+  margin-left:305px;
+  margin-top:-12px;
+  padding-left:36px;
+  -webkit-transform:rotate(7deg);
+}
+.price-new-1{
+  margin-bottom:-5px;
+  margin-top:-15px;
+  
+}
+
+/* ---------- Timer -------------*/
+
+.county span.first
+{
+    padding-left: 12px;
+    border-radius: 4px 0px 0px 4px;
+    -webkit-border-radius: 4px 0px 0px 4px;
+    -moz-border-radius: 4px 0px 0px 4px;
+}
+.county span.last
+{
+    border-radius: 0px 4px 4px 0px;
+    -webkit-border-radius: 0px 4px 4px 0px;
+    -moz-border-radius: 0px 4px 4px 0px;
+}
+
+.county > span
+{
+    display: inline-block;
+    height: 48px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 45px;
+    position: relative;
+    overflow: hidden;
+    padding-right: 12px;
+}
+
+.county-days-wrapper, .county-hours-wrapper, .county-minutes-wrapper, .county-seconds-wrapper
+{
+    overflow: hidden !important;
+    position: relative !important;
+    height: 45px !important;
+    display: inline-block !important;
+    padding-left: 12px;
+}
+.county > span > span
+{
+    display: block;
+}
+.county-label-days, .county-label-hours, .county-label-minutes, .county-label-seconds
+{
+    color: Gray;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    height: 16px !important;
+    text-align: center !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    background-color: transparent !important;
+    width:52px;
+}
+.county.gray .county-days-wrapper, .county.gray .county-hours-wrapper, .county.gray .county-minutes-wrapper, .county.gray .county-seconds-wrapper
+{
+    color: Gray;
+    background: #edecec;
+    border-top: solid 1px #FAFAFA;
+    border-bottom: solid 1px #FAFAFA;
+    width:28px;
+}
+.county.gray span.separator-left
+{
+    border-left: solid 1px #FAFAFA;
+    width: 28px;
+}
+
+
+/* Timer on the page Category and Special page */ 
+.hasCountdown {
+  margin:5px auto 23px auto;
+}
+.countdown_rtl {
+  direction: rtl;
+}
+.countdown_show4 .countdown_section {
+  width: 21%;
+  display:block;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.countdown_section {
+  display: block;
+  float: left;
+  font-size: 10px;
+  text-align: center;
+  background-color:#f2f3f5;
+  color: #a3a3a3;
+  /*margin-right:1px;
+  margin-left:1px;*/
+  padding:6px 1.2px 5px 0px;
+  border:1px solid #f1f1f1;
+  width: 21%;
+}
+.countdown_amount {
+  font-size: 16px;
+  font-weight: bold;
+  color: #424242;
+}
+.over {
+  color:gray;
+  font-size:16px;
+}
+
+/* RESPONSIVE: For mobile devices which have less 600px */
+@media (max-width:600px){
+  .date-timer {
+    display: none;
+  }
+  .special-display {
+    display:block;
+  }
+  .mobile {
+    display:none;
+  }
+}
+

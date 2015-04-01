@@ -1,0 +1,10 @@
+.ui-autocomplete {
+    z-index: 99 !important;
+}
+.ui-menu-item{
+    text-align:left;
+    overflow: hidden;
+}
+.ui-menu-item a {
+    overflow: hidden;
+}

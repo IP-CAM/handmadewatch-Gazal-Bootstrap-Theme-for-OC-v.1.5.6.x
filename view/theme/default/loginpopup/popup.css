@@ -1,0 +1,102 @@
+/*popup css */
+.popup div div div#cboxTopLeft,.popup div div div#cboxTopCenter,.popup div div div#cboxTopRight,.popup div div div#cboxBottomLeft,.popup div div div#cboxBottomCenter,.popup div div div#cboxBottomRight,.popup div div div#cboxMiddleLeft,.popup div div div#cboxMiddleRight{
+	background:none !important;
+}
+#cboxError{
+	border:none !important;
+}
+.contentpop,#cboxError{
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	position:relative;
+}
+.popclose{
+	position:absolute !important;
+	top:0px !important;
+	right:0px !important;
+	background: url("image/close.png") no-repeat scroll center center transparent !important;
+}
+
+.poplogin{
+	width:300px;
+	padding:20px;
+	display: block;
+}
+.poplogin input[name="email"],.poplogin input[name="password"]{
+	border: 1px solid #b9b9b9;
+    margin: 2px 0;
+    min-height: 25px;
+    min-width: 290px;
+}
+
+.headingpop{
+	height:40px;
+	background:#38B0E3;
+	border-radius:10px 10px 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	-webkit-border-radius:10px 10px 0 0;
+	text-align: center;
+}
+.popregister{
+	width:800px;
+	padding:10px 20px;
+	overflow: auto;
+}
+.popregister .left{
+	float: left;
+	width:49%;
+}
+.popregister .right{
+	float: right;
+	width:49%;
+}
+.headingpop h2{
+	font-size:30px;
+	color: #FFFFFF;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+.left legend, .right legend {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+
+.quicklook {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+}
+.wrapql{
+	position: relative;
+	display: block;
+}
+
+.left > fieldset, .right > fieldset {
+    border: 1px solid #F0F0F0;
+    padding: 10px 20px;
+}
+
+.productquicklook{
+	padding:10px 20px;
+	width:800px;
+	display: block;
+	overflow: auto;
+	height:98% !important;
+}
+.btnquicklook{
+	background: none repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #F0F0F0;
+    border-radius: 3px 3px 3px 3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+    color: #000000;
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+	text-shadow: 1px 1px #F0F0F0;
+}

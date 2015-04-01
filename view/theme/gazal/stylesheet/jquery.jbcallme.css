@@ -1,0 +1,196 @@
+﻿#jbCallme_overlay{
+    background:#000;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    z-index:10000;
+    display:none;
+}
+
+.jbCallme{
+    background:#f3f4f5;
+    -webkit-box-shadow: inset 0px 0px 18px rgba(100, 100, 100, 0.2), rgba(0,0,0,.8) 1px 1px 4px;
+    -moz-box-shadow:    inset 0px 0px 18px rgba(100, 100, 100, 0.2), rgba(0,0,0,.8) 1px 1px 4px;
+    box-shadow:         inset 0px 0px 18px rgba(100, 100, 100, 0.2), rgba(0,0,0,.8) 1px 1px 4px;
+    border: 1px solid #d6d6d6;
+    left:50%;
+    margin-left:-190px;
+    position:fixed;
+    top:50px;
+    width:380px;
+    z-index:11000;
+    color:#323d53;
+    display:none;
+    height:auto;
+	padding-top: 10px;
+}
+.jbCallme .jb_title{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    text-transform:uppercase;
+    color:#fff;
+    font-size:14px;
+    padding:10px;
+    background:#293c4d;
+}
+.jbCallme .jb_title:first-letter{
+    font-size:18px;
+}
+.jbCallme textarea{
+    border: 1px solid #d6d6d6;
+    padding: 3px;
+	margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width:353px;
+    height:70px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.jbCallme form{
+    margin: 10px;
+}
+.jbCallme .jb_input{
+    margin-top: 10px;
+}
+.jbCallme  label   {
+    margin-left: 10px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 12px;
+}
+.jbCallme input[type=text],.jbCallme input[type=email]{
+    margin-top: 0px;
+    margin-right: 10px;
+	margin-left: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    border: 1px solid #CCCCCC;
+    padding: 7px;
+    background-color: #fff;
+    width:345px;
+  
+}
+.jbCallme select{
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border: 1px solid #CCCCCC;
+    padding: 7px;
+    background-color: #fff;
+    width:100%;
+    display:block;
+  
+}
+.jbCallme select:focus,.jbCallme input[type=text]:focus,.jbCallme input[type=email]:focus, .jbCallme textarea:focus{
+    background-color: #f9fbff;
+    border: 1px solid #999999;
+}
+.jbCallme .jb_close{
+    position:absolute;
+    display:block;
+    top:20px;
+    right:20px;
+    width:24px;
+    height:24px;
+    cursor:pointer;
+    text-indent:-500px;
+    overflow:hidden;
+}
+.jbCallme .jb_close:after{
+    display:block;
+    content:'×';
+	font-family: Arial, sans-serif;
+    position:absolute;
+    line-height:24px;
+    font-size:24px;
+    text-indent:0;
+    top:0;
+    right:0;
+    color:#fff;
+}
+.jbCallme input[type=submit]{
+    
+    border: 0 none;
+    display:inline-block;
+    
+    text-indent:0;
+   border-radius: 3px;
+color: #fff;
+cursor: pointer;
+font-family: 'Segoe Semibold', 'Arial Narrow', Arial, Tahoma !important;
+    padding: 3px 10px;
+	text-align: center;
+	line-height: 30px;
+       
+    font-size: 14px;
+	margin-top: 5px;
+    margin-left: 10px;
+	background: #9CB13A;   
+    text-decoration: none;
+    vertical-align: middle;  
+}
+.jbCallme input[type=submit]:hover {
+   
+    background: #657722;
+    
+}
+.jbCallme .jb_dev{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    color:#c2c3c4;
+    text-decoration:none;
+}
+.jbCallme .jb_success{
+    margin:30px;
+    color:#323d53;
+    font-size:14px;
+}
+.jbCallme .jb_fail{
+    margin:30px;
+    color:#323d53;
+    font-size:14px;
+}
+.jb_progress{
+    display: inline-block;
+    height: 76px;
+    position: relative;
+    vertical-align: top;
+    width: 100%;    
+}
+.jb_progress:after {
+	border-width: 0 3px 0 0;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, .5);
+	border-radius: 50%;
+	display: block;
+	height: 50px;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+	position: absolute;
+	top: 50%;
+	width: 50px;
+
+	content: "";
+
+	animation: spin 1s infinite linear;
+	-webkit-animation: spin 1s infinite linear;
+}
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+
+
+
+
+
